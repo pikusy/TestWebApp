@@ -20,7 +20,7 @@ namespace TestWebApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls(http://20.101.133.109:5000/)
+                    webBuilder.UseUrls(http://20.101.133.109:5000/);
                     webBuilder.UseStartup<Startup>();
                 });
     }
